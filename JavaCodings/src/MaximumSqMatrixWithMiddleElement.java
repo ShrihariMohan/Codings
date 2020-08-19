@@ -1,7 +1,9 @@
 import java.util.* ;
 
-public class MaximumSqMatrixWithMiddleElement {
-        public static int row , col , mid , count;
+public class
+
+MaximumSqMatrixWithMiddleElement {
+    public static int row , col , mid , count;
         public static int rowInd , colInd ;
         public static int[][] mat = new int[50][50] ;
 
