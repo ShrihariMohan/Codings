@@ -1,11 +1,16 @@
 #include<stdio.h>
 
 void main() {
+
+    // In C program 
+    // charcter and Integer are same
+
     int  a = 10 ; // 4 byte
     float f  = 10 ;  // 4 byte
-    char ch = '\0'; // 1 byte
+    char ch = '\n'; // 1 byte
     
-    printf ("%d %f %c", a , f , ch); 
+
+    printf ("%d" , 'a'); 
 
     //CHARCTER RULES
     //1 .  single quotes must 
