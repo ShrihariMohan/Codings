@@ -13,8 +13,10 @@ public class runnableInterface {
         String s ;
 
         //subthread using Interface
-        Runnable r = new subThreadUsingInterface();
-        Thread sub = new Thread(r);
+//        Runnable r = new subThreadUsingInterface();
+//        Thread sub = new Thread(r);
+
+        Thread sub = new Thread ( new subThreadUsingInterface());
         sub.start();
 
         // we can also use daemon threadds

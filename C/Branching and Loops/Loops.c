@@ -30,15 +30,15 @@ void main() {
     //     printf("%d ",a);
         
     // }
-    int a = 10 ;
-    while ( a = a-1 ) {
+    // int a = 10 ;
+    // while ( a = a-1 ) {
 
-        printf("%d ",a);
-        if ( a = 5) {
-            break;
-        }
-    }
-    printf("end");
+    //     printf("%d ",a);
+    //     if ( a = 5) {
+    //         break;
+    //     }
+    // }
+    // printf("end");
 
 
     // for ( int a = 10 ;  ; a = a-1) {
@@ -49,6 +49,24 @@ void main() {
        
 
     // }
+
+    // Do while
+    // SYNTAX 
+    // do {
+
+
+    //} while(cond) ;
+    // 2 types of LOOPS 
+    // 1. Entry CHeck LOOP
+    // 2. Exit check loop
+    do {
+        printf("LOOP");
+        continue ;
+    } while(0) ;
+
+    while(0) {
+        printf("LOOP");
+    }
 
 
 

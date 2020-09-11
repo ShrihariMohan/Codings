@@ -13,10 +13,13 @@ class child1 extends parent1{
         System.out.println("NON static print");
     }
 }
+
 public class methodHiding {
     public static void main(String[] args) {
         child1.print(); // OBJECT
         child1 ch = new child1();
+        parent1 ph = new child1();
+        ph.print();
         ch.childPrint();
     }
 }

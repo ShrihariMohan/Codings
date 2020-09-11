@@ -2,7 +2,11 @@ import java.sql.* ;
 
 import static java.lang.Class.forName;
 
-
+interface test {
+     static void testMethods() {
+          System.out.println("HELlo");
+     }
+}
 public class JDBCSample {
     public static void main(String[] args) throws Exception {
 
