@@ -1,11 +1,15 @@
 #include<stdio.h>
 
+//1. remove left side bits
+//2. add 0s to the right.
 void main() {
 
     int a = 10; 
-    // 0000000000...101000 = 10; 
+    // 000000...00101000 = 40; 
+    a = a << 2 ;
+
     int sum = 20 << 3 ;
-    printf("%d",sum );
+    printf("%d", a);
 
     
     // simple technique

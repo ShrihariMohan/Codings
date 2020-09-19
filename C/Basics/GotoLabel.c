@@ -16,6 +16,12 @@ void main() {
     //5. Label must end with :
 
     //6. goto state must end with ;
+
+    //7. within function only valid
+
+    //8. Only one label should be there for one function
+
+    //9. Any no of goto s are allowed
     printf("1 ");
     printf("2 ");
     printf("2.1 ");
