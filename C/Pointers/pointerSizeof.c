@@ -26,6 +26,7 @@ void main() {
     printf("%ld " , sizeof(ip)); // 8
     printf("%ld " , sizeof(fp)); // 8
     printf("%ld " , sizeof(cp)); // 8
-   
+
+}
     // The size of the pointer will vary from 
     // data type to data type ????? NO
