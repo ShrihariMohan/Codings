@@ -16,7 +16,7 @@ public class IOSerialization {
         ObjectOutputStream oos = new ObjectOutputStream(fos) ;
         oos.writeObject(he); // no static variables will be there
 
-        FileInputStream fis = new FileInputStream("serial.txt");
+        FileInputStream fis = new FileInputStream("seri2al.txt");
         ObjectInputStream ois = new ObjectInputStream(fis) ;
         dog serializedOutput = (dog) ois.readObject();
 

@@ -49,6 +49,11 @@ void main() {
 
     *** Important Things to Know ***
 
+    x & 0 -> 0
+    x & 1 -> x
+
+    x | 0 -> x
+    x | 1 -> 1 
     
   
     */
