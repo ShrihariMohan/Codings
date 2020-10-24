@@ -7,15 +7,11 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <stdio.h>
-
+#define cout printf ;
 int main()
 {
     int i = 0 ;
-    while ( + ( + i --) != 0) {
-        printf("%d ",i);
-        i -= i + 1 ;
-        printf("%d \n",i);
-    }
-    printf("%d ",i);
+   
+    cout ( "%d \n shrihaari",i);
     return 0;
 }
