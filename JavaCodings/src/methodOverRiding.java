@@ -1,15 +1,21 @@
 class parent {
-    public Integer test() {
+    private int id ;
+    public  void test() {
         System.out.println("Parent");
-        return 10 ;
+    }
+
+    public void setId(int id) {
+        this.id = id ;
     }
 }
 
 class child extends parent {
-    public Integer test() {
+    public  void test() {
         System.out.println("Child");
-        return 10;
     }
+
+    static int id = 10 ;
+    public int anotherId = 20 ;
 }
 
 public class methodOverRiding {
@@ -22,5 +28,8 @@ public class methodOverRiding {
 
         parent pc = new child();
         pc.test();
+
+        System.out.println(c.anotherId) ;
+
     }
 }

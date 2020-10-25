@@ -6,5 +6,9 @@ abstract public class Testings {
         Integer.valueOf(10);
         int unbox = id.intValue();
          System.out.println(unbox);
-    }
+        String name = "shri" ;
+        String name1 = new String("Shri");
+        char[] chr = new char[10];
+
+     }
 }
