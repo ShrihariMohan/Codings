@@ -11,8 +11,8 @@ right or down
 
 #include <iostream>
 using namespace std ;
-const int row = 3 ;
-const int col = 3 ;
+const int row = 4 ;
+const int col = 4 ;
 int mat[row][col] = {0} ;
 
 void displayDP(  ) {
