@@ -36,7 +36,7 @@ int rodCutter( int * cost , int size) {
 
 int main() {
     int size = 9 ;
-    int arr[size] = { 0, 1, 5, 8, 9, 10, 17, 17 ,20 } ;
+    int arr[size] = { 0 ,1, 5, 8, 9, 10, 17, 17 ,20 } ;
     cout << rodCutter( arr , size) ;
     return 0 ;
 }
