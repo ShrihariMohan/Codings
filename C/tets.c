@@ -1,17 +1,20 @@
-/******************************************************************************
+#include<stdio.h>
+void main() {
+  char name[100] ;
+  int rollNo ;
+  int sub1 , sub2 , sub3 , sub4 ;
+  float avg ;  
+  scanf("%s",name);
+  scanf("%d",&rollNo);
+  scanf("%d %d %d %d",&sub1,&sub2,&sub3,&sub4);
 
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
+  avg = (sub1 + sub2 +sub3 +sub4)/4.0;  
+  printf("Name :%s\n",name);
+  printf("Id : %d\n",rollNo);
+  printf("sub1 : %d , sub2 : %d , sub3 : %d , sub4 : %d",sub1,sub2,sub3,sub4);
+  printf("Average is %f",avg);
 
-*******************************************************************************/
-
-#include <stdio.h>
-#define cout printf ;
-int main()
-{
-    int i = 0 ;
-   
-    cout ( "%d \n shrihaari",i);
-    return 0;
 }
+
+// what is a function ?
+// name() 
