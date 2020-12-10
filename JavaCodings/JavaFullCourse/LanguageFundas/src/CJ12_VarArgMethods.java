@@ -65,7 +65,7 @@ public class CJ12_VarArgMethods {
         // one dimensional string array
     }
 
-    public  static  void varArgSumming( int[] ... x) {
+    public  static  void varArgSummings( int[] ... x) {
         // 2 dimensional integer array
     }
 
